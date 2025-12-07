@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <title>Curso Técnico em Desenvolvimento de Sistemas</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container header-inner">
+      
+          <!-- LOGO DA ESCOLA -->
+          <div class="logo-box">
+            <img src="assets/images/logo.png" alt="Logo da Escola" class="school-logo">
+            <h1 class="school-name">Colégio Estadual Professor Paulo Alberto Tomazinho</h1>
+          </div>
+      
+                
+        </div>
+      </header>
+      
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="#inicio" class="logo">Curso Técnico <span>TDS</span></a>
+
+    <button class="nav-toggle" aria-label="Abrir menu">☰</button>
+
+    <nav class="main-nav">
+      <ul>
+        <li><a href="#sobre">Sobre o Curso</a></li>
+        <li><a href="#galeria">Galeria</a></li>
+        <li><a href="#videos">Vídeos</a></li>
+        <li><a href="#inscricao">Inscrição</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <!-- HERO -->
+  <section id="inicio" class="hero">
+    <div class="container hero-inner">
+      <h1>Curso Técnico Integrado em Desenvolvimento de Sistemas</h1>
+      <p>Aprenda programação, banco de dados, web, mobile e prepare-se para o mercado de TI.</p>
+      <a href="https://www.areadoaluno.seed.pr.gov.br/" class="btn">Matrícula</a>
+    </div>
+  </section>
+
+  <!-- SOBRE -->
+  <section id="sobre" class="container about">
+    <h2>Sobre o Curso</h2>
+    <p>O curso forma profissionais capazes de desenvolver sistemas completos, desde a lógica da programação até o desenvolvimento web, banco de dados, APIs e aplicações mobile.</p>
+
+    <div class="cards">
+      <div class="card">
+        <h3>Programação</h3>
+        <p>Aprenda as principais linguagens atuais: JavaScript, Python e C.</p>
+      </div>
+
+      <div class="card">
+        <h3>Banco de Dados</h3>
+        <p>Modelagem, SQL, MySQL, PostgreSQL e boas práticas de projeto.</p>
+      </div>
+
+      <div class="card">
+        <h3>Desenvolvimento Web</h3>
+        <p>HTML, CSS, JS, APIs REST, frameworks modernos e práticas reais de mercado.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALERIA -->
+  <section id="galeria" class="container gallery">
+    <h2>Galeria de Projetos e Eventos</h2>
+    <div class="grid" id="gallery-grid">
+      <img data-src="assets/images/walle.jpeg" class="lazy gallery-item" alt="">
+      <img data-src="assets/images/painel.jpeg" class="lazy gallery-item" alt="">
+      <img data-src="assets/images/impressao1.jpeg" class="lazy gallery-item" alt="">
+      <img data-src="assets/images/perito.jpeg" class="lazy gallery-item" alt="">
+    </div>
+  </section>
+
+  <!-- VIDEOS -->
+  <section id="videos" class="container videos">
+    <h2>Vídeos do Curso</h2>
+    <div class="video-row">
+      <video class="lazy" controls preload="metadata">
+        <source data-src="assets/videos/walle.mp4" type="video/mp4">
+      </video>
+      <video class="lazy" controls preload="metadata">
+        <source data-src="assets/videos/3d.mp4" type="video/mp4">
+      </video>
+    </div>
+  </section>
+
+ 
+  <!-- CONTATO -->
+  <section id="contato" class="container contact">
+    <h2>Contato</h2>
+    <p>Telefone: (44) 9999-16392 • Coordenador de curso</p>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>© <span id="year"></span> Curso Técnico em Desenvolvimento de Sistemas</p>
+  </div>
+</footer>
+
+<!-- LIGHTBOX -->
+<div id="lightbox" class="lightbox" aria-hidden="true">
+  <button id="lightbox-close" class="lightbox-close">✕</button>
+  <img id="lightbox-img" alt="">
+</div>
+
+<script src="script.js"></script>
+
+<!-- POP-UP DE MATRÍCULAS -->
+<div id="popup-overlay" class="popup-overlay">
+    <div class="popup-box">
+      <button id="popup-close" class="popup-close">✕</button>
+  
+      <h2>📢 Matrículas Abertas!</h2>
+      <p>Garanta sua vaga no <strong>Curso Técnico em Desenvolvimento de Sistemas</strong>.</p>
+      <p><strong>Matrículas até 10/12</strong></p>
+  
+      <a href="https://www.areadoaluno.seed.pr.gov.br/" class="btn popup-btn">Quero me inscrever</a>
+    </div>
+  </div>
+</body>
+</html>
