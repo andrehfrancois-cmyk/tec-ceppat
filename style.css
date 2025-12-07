@@ -353,3 +353,21 @@ input, select {
     height: 280px;
   }
 }
+.maps-container {
+  width: 100%;
+  height: 350px;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.maps-iframe {
+  width: 100%;
+  height: 100%;
+  display: block;
+  border: 0;
+}
+@media (max-width: 600px){
+  .maps-container {
+    height: 300px;
+  }
+}
